@@ -1,5 +1,98 @@
+/* General Styling */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: black;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #0044cc;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Contact Links */
+section#contact a {
+    text-decoration: none;
+    color: #0044cc;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+section#contact i {
+    margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
 }
