@@ -1,16 +1,16 @@
 /* General Styling */
 body {
-    font-family: 'Poppins', Arial, sans-serif; /* Modern, clean font */
+    font-family: 'Poppins', Arial, sans-serif;
     line-height: 1.8;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f3f4f6; /* Softer background color */
+    background-color: #f3f4f6;
 }
 
 /* Header */
 header {
-    background-color: #0056d2; /* Slightly richer blue */
+    background-color: #0056d2;
     color: white;
     padding: 0.7rem;
     text-align: center;
@@ -22,13 +22,13 @@ header h1 {
     font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 1px;
-    text-transform: uppercase; /* Add a bold, professional touch */
+    text-transform: uppercase;
 }
 
 header p {
     margin: 0.5rem 0 0;
     font-size: 1.2rem;
-    font-style: italic; /* Softer, secondary text style */
+    font-style: italic;
 }
 
 /* Navigation */
@@ -46,17 +46,17 @@ nav ul li a {
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
-    transition: all 0.3s ease; /* Smooth hover effect */
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffdd57; /* Accent color for hover effect */
+    color: #ffdd57;
     text-decoration: underline;
 }
 
 /* Sections */
 section {
-    padding: 1.5rem 1rem; /* Reduce padding inside the section box */
+    padding: 1.5rem 1rem;
     margin: 1.5rem auto;
     max-width: 900px;
     background: white;
@@ -72,11 +72,11 @@ section:hover {
 
 section h2 {
     color: #0056d2;
-    margin-bottom: 1rem; /* Reduce the space below the title */
-    margin-top: 0; /* Remove any extra space above the title */
+    margin-bottom: 1rem;
+    margin-top: 0;
     font-size: 2rem;
     border-bottom: 2px solid #f3f4f6;
-    padding-bottom: 0.25rem; /* Fine-tune spacing for a clean look */
+    padding-bottom: 0.25rem;
 }
 
 ul {
@@ -96,14 +96,14 @@ footer {
 }
 
 footer a {
-    color: #ffdd57;
+    color: #0056d2;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #ff9933; /* Slightly darker hover color for footer links */
+    color: #aaa;
 }
 
 /* Contact Section */
@@ -119,14 +119,14 @@ section#contact a:hover {
 }
 
 section#contact a i {
-    color: #aaa; /* Light gray icons */
+    color: #aaa;
     margin-right: 0.5rem;
     font-size: 1.2rem;
     transition: color 0.3s ease; /* Smooth transition on hover */
 }
 
 section#contact a:hover i {
-    color: #0056d2; /* Primary color on hover */
+    color: #0056d2;
 }
 
 /* Responsive Design */
